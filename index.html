@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Model's Image Gallery</h1>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="portrait">Portrait</button>
+            <button class="filter-btn" data-filter="fashion">Fashion</button>
+            <button class="filter-btn" data-filter="beauty">Beauty</button>
+            <button class="filter-btn" data-filter="editorial">Editorial</button>
+        </div>
+        
+        <div class="gallery">
+            <!-- Portrait -->
+            <div class="gallery-item" data-category="portrait">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Portrait Model">
+                <div class="item-info">
+                    <h3>Elena</h3>
+                    <p>Portrait Series 2025</p>
+                </div>
+            </div>
+            
+            <!-- Fashion -->
+            <div class="gallery-item" data-category="fashion">
+                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fashion Model">
+                <div class="item-info">
+                    <h3>Sophia</h3>
+                    <p>Spring Collection 2025</p>
+                </div>
+            </div>
+            
+            <!-- Beauty -->
+            <div class="gallery-item" data-category="beauty">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Beauty Model">
+                <div class="item-info">
+                    <h3>Isabella</h3>
+                    <p>Beauty Campaign</p>
+                </div>
+            </div>
+            
+            <!-- Editorial -->
+            <div class="gallery-item" data-category="editorial">
+                <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Editorial Model">
+                <div class="item-info">
+                    <h3>Olivia</h3>
+                    <p>Vogue Editorial</p>
+                </div>
+            </div>
+            
+            <!-- Portrait -->
+            <div class="gallery-item" data-category="portrait">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Portrait Model">
+                <div class="item-info">
+                    <h3>Mia</h3>
+                    <p>Black & White Series</p>
+                </div>
+            </div>
+            
+            <!-- Fashion -->
+            <div class="gallery-item" data-category="fashion">
+                <img src="https://images.unsplash.com/photo-1542206395-9feb3edaa68d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fashion Model">
+                <div class="item-info">
+                    <h3>Charlotte</h3>
+                    <p>Fall Collection 2025</p>
+                </div>
+            </div>
+            
+            <!-- Beauty -->
+            <div class="gallery-item" data-category="beauty">
+                <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Beauty Model">
+                <div class="item-info">
+                    <h3>Amelia</h3>
+                    <p>Cosmetics Campaign</p>
+                </div>
+            </div>
+            
+            <!-- Editorial -->
+            <div class="gallery-item" data-category="editorial">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Editorial Model">
+                <div class="item-info">
+                    <h3>Harper</h3>
+                    <p>Harper's Bazaar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close-btn">&times;</span>
+        <span class="prev-btn">&lt;</span>
+        <span class="next-btn">&gt;</span>
+        <div class="lightbox-content">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
